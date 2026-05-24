@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+:root {
+  --cream: #f5efe4;
+  --warm-white: #faf7f2;
+  --sand: #e8dcca;
+  --terracotta: #c4714a;
+  --deep-brown: #2c1a0e;
+  --mocha: #7a5c42;
+  --sage: #74896b;
+  --blush: #e8c4a8;
+  --linen: #f0e7d6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background: var(--warm-white);
+  color: var(--deep-brown);
+  font-family: 'DM Sans', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button,
+a {
+  cursor: inherit;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  body {
+    cursor: none;
+  }
+}
+
+.font-display {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.hero-surface {
+  background:
+    radial-gradient(ellipse at 18% 50%, rgba(196, 113, 74, 0.14) 0%, transparent 58%),
+    radial-gradient(ellipse at 80% 18%, rgba(116, 137, 107, 0.16) 0%, transparent 52%),
+    var(--cream);
+}
+
+.hero-texture {
+  background-image:
+    radial-gradient(circle at center, rgba(196, 113, 74, 0.09) 0 1.2px, transparent 1.4px);
+  background-size: 60px 60px;
+}
+
+.marquee-track {
+  animation: marquee 22s linear infinite;
+}
+
+.fade-up {
+  animation: fade-up 0.95s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  opacity: 0;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(32px);
+  transition:
+    opacity 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+    transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.parallax-soft {
+  background:
+    radial-gradient(ellipse at 30% 60%, rgba(196, 113, 74, 0.25) 0%, transparent 50%),
+    radial-gradient(ellipse at 70% 30%, rgba(44, 26, 14, 0.12) 0%, transparent 50%),
+    var(--sand);
+}
+
+.parallax-dark {
+  background:
+    radial-gradient(ellipse at 40% 50%, rgba(196, 113, 74, 0.3) 0%, transparent 60%),
+    radial-gradient(circle at center, rgba(245, 239, 228, 0.05) 0 1.3px, transparent 1.6px),
+    var(--deep-brown);
+  background-size: auto, 80px 80px, auto;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
