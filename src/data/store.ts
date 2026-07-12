@@ -21,7 +21,7 @@ export const products = [
     id: 'cachepo-verde',
     name: 'Cachepo Trancado Verde',
     category: 'Decoracao',
-    price: 'A partir de R$79',
+    price: 'R$30,00',
     badge: 'Mais pedido',
     images: [
       {
@@ -35,7 +35,7 @@ export const products = [
     id: 'descanso-pink',
     name: 'Porta-copos em fio de malha',
     category: 'Mesa & Decoracao',
-    price: 'R$35,00',
+    price: 'R$10,00',
     badge: null,
     images: [
       {
@@ -67,7 +67,7 @@ export const products = [
     id: 'kit-cesto-uva',
     name: 'Porta copo + porta canetas',
     category: 'Organizadores',
-    price: 'A partir de R$120',
+    price: 'R$25,00',
     badge: null,
     images: [
       {
@@ -123,7 +123,7 @@ export const processSteps = [
 export const footerColumns = [
   {
     title: 'Produtos',
-    links: ['Bolsas & Acessorios', 'Decoracao', 'Mantas & Almofadas', 'Roupinhas Bebe', 'Encomendas Especiais'],
+    links: ['Bolsas & Acessorios', 'Decoracao', 'Encomendas Especiais'],
   },
   {
     title: 'Informacoes',

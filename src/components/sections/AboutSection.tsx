@@ -92,7 +92,7 @@ export function AboutSection() {
           </Card>
         </Reveal>
 
-        <InfoCard label="Materiais" title="Fios selecionados" description="Algodao, linho e la merino de alta qualidade. Macios, duraveis e com cores que nao desbotam." delay={200} />
+        <InfoCard label="Materiais" title="Fios selecionados" description="Algodao e lycra de alta qualidade. Macios, duraveis e com cores que nao desbotam." delay={200} />
         <InfoCard
           label="Prazo"
           title="7 a 15 dias uteis"

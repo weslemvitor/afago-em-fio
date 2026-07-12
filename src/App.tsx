@@ -1,6 +1,7 @@
 import { AboutSection } from './components/sections/AboutSection'
 import { CustomCursor } from './components/layout/CustomCursor'
 import { Footer } from './components/layout/Footer'
+import { WhatsAppContact } from './components/layout/WhatsAppContact'
 import { HeroSection } from './components/sections/HeroSection'
 import { Marquee } from './components/sections/Marquee'
 import { Navbar } from './components/layout/Navbar'
@@ -25,6 +26,7 @@ function App() {
         <SpecialOrderSection />
       </main>
       <Footer />
+      <WhatsAppContact />
     </>
   )
 }
