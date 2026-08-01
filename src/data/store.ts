@@ -91,6 +91,52 @@ export const products = [
     ],
     message: 'Ola! Gostaria de encomendar um Porta canetas + porta clips + porta copo',
   },
+  {
+    id: 'cesto-tampa-lilas',
+    name: 'Cesto Organizador com Tampa Lilas',
+    category: 'Organizadores',
+    price: 'R$29,99',
+    badge: 'Novo',
+    images: [
+      {
+        src: '/products/kit-lilas-catalogo-02.png',
+        alt: 'Cesto organizador lilas com tampa branca em croche',
+      },
+    ],
+    message: 'Ola! Gostaria de encomendar um Cesto Organizador com Tampa Lilas',
+  },
+  {
+    id: 'bandeja-lilas',
+    name: 'Bandeja Organizadora com Alcas Lilas',
+    category: 'Organizadores',
+    price: 'R$74,99',
+    badge: 'Novo',
+    images: [
+      {
+        src: '/products/kit-lilas-catalogo-04.png',
+        alt: 'Bandeja organizadora lilas e branca com alcas em croche',
+      },
+    ],
+    message: 'Ola! Gostaria de encomendar uma Bandeja Organizadora com Alcas Lilas',
+  },
+  {
+    id: 'kit-organizador-lilas',
+    name: 'Kit Bandeja e Cesto com Tampa Lilas',
+    category: 'Organizadores',
+    price: 'R$104,99',
+    badge: 'Novo',
+    images: [
+      {
+        src: '/products/kit-lilas-catalogo-01.png',
+        alt: 'Kit lilas com cesto de tampa branca e bandeja organizadora em croche',
+      },
+      {
+        src: '/products/kit-lilas-catalogo-03.png',
+        alt: 'Bandeja organizadora lilas com cesto de tampa branca ao centro',
+      },
+    ],
+    message: 'Ola! Gostaria de encomendar um Kit Bandeja e Cesto com Tampa Lilas',
+  },
 ] as const
 
 export const processSteps = [
