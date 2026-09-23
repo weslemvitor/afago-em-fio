@@ -137,6 +137,28 @@ export const products = [
     ],
     message: 'Ola! Gostaria de encomendar um Kit Bandeja e Cesto com Tampa Lilas',
   },
+  {
+    id: 'kit-organizador-infantil-rosa',
+    name: 'Kit Organizador Infantil Rosa',
+    category: 'Organizadores',
+    price: 'R$150,00',
+    badge: 'Novo',
+    images: [
+      {
+        src: '/products/kit-organizador-infantil-rosa-01.png',
+        alt: 'Kit organizador infantil rosa e branco com quatro pecas em croche',
+      },
+      {
+        src: '/products/kit-organizador-infantil-rosa-02.png',
+        alt: 'Vista superior do kit organizador infantil rosa em croche',
+      },
+      {
+        src: '/products/kit-organizador-infantil-rosa-03.png',
+        alt: 'Detalhes dos pingentes do kit organizador infantil rosa em croche',
+      },
+    ],
+    message: 'Ola! Gostaria de encomendar um Kit Organizador Infantil Rosa',
+  },
 ] as const
 
 export const processSteps = [
